@@ -1,0 +1,1 @@
+document.getElementById('quiz').innerHTML = '<p>س: ما هو الرمز الكيميائي للماء؟</p><ul><li>H2O</li><li>CO2</li><li>O2</li><li>NaCl</li></ul>';
