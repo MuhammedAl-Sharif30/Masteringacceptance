@@ -1,46 +1,0 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>منصة القبول الطبي</title><link rel="stylesheet" href="style.css">
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head><body>
-<section id="home" class="active-screen">
-  <h1>منصة القبول الطبي - اليمن</h1>
-  <p>مرحباً بك في منصتك الذكية لتجهيز اختبارات القبول الطبي!</p>
-  <div class="cards">
-    <div class="card" onclick="navigateTo('courses')">📚 المواد</div>
-    <div class="card" onclick="navigateTo('quiz')">📝 اختبار</div>
-    <div class="card" onclick="navigateTo('about')">💡 عن المنصة</div>
-  </div>
-</section>
-
-<section id="courses" class="hidden-screen">
-  <h2>المواد الدراسية</h2>
-  <ul>
-    <li>الكيمياء</li>
-    <li>الفيزياء</li>
-    <li>الأحياء</li>
-    <li>اللغة الإنجليزية</li>
-  </ul>
-</section>
-
-<section id="quiz" class="hidden-screen">
-  <h2>الاختبار التجريبي</h2>
-  <div id="questionBox"></div>
-  <div id="optionsBox"></div>
-  <button onclick="nextQuestion()">التالي</button>
-  <div id="resultBox"></div>
-</section>
-
-<section id="about" class="hidden-screen">
-  <h2>عن المنصة</h2>
-  <p>منصة تعليمية للطلاب اليمنيين للتحضير لاختبارات القبول الطبي بشكل تفاعلي.</p>
-</section>
-
-<nav class="bottom-nav">
-  <button onclick="navigateTo('home')">🏠 الرئيسية</button>
-  <button onclick="navigateTo('courses')">📚 المواد</button>
-  <button onclick="navigateTo('quiz')">📝 اختبار</button>
-  <button onclick="navigateTo('about')">ℹ️ عن</button>
-</nav>
-<script src="script.js"></script></body></html>
